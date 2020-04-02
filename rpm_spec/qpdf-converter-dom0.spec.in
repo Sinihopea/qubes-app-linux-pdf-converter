@@ -23,20 +23,20 @@
 #
 
 
-Name:		qubes-pdf-converter-dom0
-Version:	@VERSION@
-Release:	1%{dist}
-Summary:    Qubes policy for qpdf-converter
+Name:           qubes-pdf-converter-dom0
+Version:        @VERSION@
+Release:        1%{dist}
+Summary:        Qubes policy for qpdf-converter
 
-Group:		Qubes
-Vendor:		Invisible Things Lab
-License:	GPL
-URL:		http://www.qubes-os.org
+Group:          Qubes
+Vendor:         Invisible Things Lab
+License:        GPL
+URL:            http://www.qubes-os.org
 
-BuildRequires: python2-devel
-BuildRequires: python3-devel
+BuildRequires:  python2-devel
+BuildRequires:  python3-devel
 
-Source0: %{name}-%{version}.tar.gz
+Source0:        %{name}-%{version}.tar.gz
 
 %description
 Qubes policy for qpdf-converter
